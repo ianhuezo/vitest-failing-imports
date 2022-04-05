@@ -1,3 +1,6 @@
+/**
+ * @vitest-environment jsdom
+ */
 import {html, fixture} from "@open-wc/testing";
 import {describe, it} from "vitest";
 import "./my-element"

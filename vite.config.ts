@@ -6,7 +6,7 @@ export default defineConfig({
     //@ts-expect-error
     test:{
       environment: "jsdom",
-      globals: true
+      globals: true,
     },
     lib: {
       entry: 'src/my-element.ts',
